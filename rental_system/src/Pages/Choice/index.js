@@ -9,7 +9,7 @@ const ChoiceUser = () => {
       <div className="card card-container">
         <h4>Welcome To Rental Space System</h4>
         <button
-          className="bg-primary mr-2 ml-2 mt-2 mb-2"
+          className="btn bg-primary mr-2 ml-2 mt-2 mb-2"
           onClick={() => {
             navigate("/loginadmin");
           }}
@@ -17,7 +17,7 @@ const ChoiceUser = () => {
           Login As Admin
         </button>
         <button
-          className="bg-primary mr-2 ml-2  mb-2"
+          className="btn bg-primary mr-2 ml-2  mb-2"
           onClick={() => {
             navigate("/login");
           }}

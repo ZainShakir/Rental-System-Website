@@ -18,16 +18,6 @@ const RentalSpace = () => {
     return <div>Loading...</div>;
   }
 
-  const renderBase64Image = (base64Image) => {
-    return (
-      <img
-        src={`data:image/png;base64,${base64Image}`}
-        alt="Rental Space"
-        className="img-fluid"
-      />
-    );
-  };
-
   return (
     <div className="container">
       <div className="row">
